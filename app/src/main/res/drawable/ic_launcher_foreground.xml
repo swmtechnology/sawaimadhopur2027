@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Centered emblem within 66dp safe zone (21 to 87 on 108dp grid) -->
+    <!-- Ranthambore Fort Gateway / Royal Arch / Portal silhouette -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M38,34 L38,28 L42,28 L42,34 L50,34 L50,28 L54,28 L58,28 L58,34 L66,34 L66,28 L70,28 L70,34 L74,38 L74,78 L68,78 L68,56 C68,48 60,44 54,44 C48,44 40,48 40,56 L40,78 L34,78 L34,38 Z" />
+    <!-- Web / Globe connectivity ring inside the arch -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,52 C58.4,52 62,55.6 62,60 C62,64.4 58.4,68 54,68 C49.6,68 46,64.4 46,60 C46,55.6 49.6,52 54,52 Z" />
+    <path
+        android:fillColor="#C2410C"
+        android:pathData="M54,55 C56.8,55 59,57.2 59,60 C59,62.8 56.8,65 54,65 C51.2,65 49,62.8 49,60 C49,57.2 51.2,55 54,55 Z" />
+    <!-- Pulse signal dot -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,58 A2,2 0 1,0 54,62 A2,2 0 1,0 54,58 Z" />
+    <!-- Base platform -->
+    <path
+        android:fillColor="#FDE68A"
+        android:pathData="M30,78 L78,78 L78,82 L30,82 Z" />
+</vector>

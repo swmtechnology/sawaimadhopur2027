@@ -1,0 +1,71 @@
+{
+  "entities": {
+    "User": {
+      "title": "User",
+      "description": "User profile in Sawai Madhopur community directory",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string", "description": "Auth UID or user unique identifier" },
+        "name": { "type": "string", "description": "Full name of the user" },
+        "mobile": { "type": "string", "description": "User mobile number" },
+        "email": { "type": "string", "description": "User email address" },
+        "createdAt": { "type": "number", "description": "Creation timestamp in epoch millis" }
+      },
+      "required": ["uid", "name", "mobile", "email"]
+    },
+    "Message": {
+      "title": "Message",
+      "description": "Direct message between users",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string", "description": "Unique message ID" },
+        "senderId": { "type": "string", "description": "Sender user ID" },
+        "receiverId": { "type": "string", "description": "Recipient user ID" },
+        "messageText": { "type": "string", "description": "Text content of the message" },
+        "timestamp": { "type": "number", "description": "Timestamp in epoch millis" },
+        "senderName": { "type": "string", "description": "Sender display name" },
+        "receiverName": { "type": "string", "description": "Receiver display name" },
+        "senderMobile": { "type": "string", "description": "Sender phone number" },
+        "receiverMobile": { "type": "string", "description": "Receiver phone number" },
+        "senderEmail": { "type": "string", "description": "Sender email" },
+        "receiverEmail": { "type": "string", "description": "Receiver email" },
+        "participants": { "type": "array", "description": "List of participant user IDs" },
+        "transport": { "type": "string", "description": "Transport mechanism (CLOUD or P2P)" }
+      },
+      "required": ["id", "senderId", "receiverId", "messageText", "timestamp", "participants"]
+    },
+    "Chat": {
+      "title": "Chat",
+      "description": "Chat thread summary between two users",
+      "type": "object",
+      "properties": {
+        "chatId": { "type": "string", "description": "Chat identifier (sorted user IDs)" },
+        "participants": { "type": "array", "description": "List of participant user IDs" },
+        "lastMessageText": { "type": "string", "description": "Preview of last message sent" },
+        "lastTimestamp": { "type": "number", "description": "Timestamp in epoch millis" },
+        "lastSenderId": { "type": "string", "description": "User ID of last sender" },
+        "user1Id": { "type": "string", "description": "ID of first participant" },
+        "user1Name": { "type": "string", "description": "Name of first participant" },
+        "user1Mobile": { "type": "string", "description": "Mobile of first participant" },
+        "user2Id": { "type": "string", "description": "ID of second participant" },
+        "user2Name": { "type": "string", "description": "Name of second participant" },
+        "user2Mobile": { "type": "string", "description": "Mobile of second participant" }
+      },
+      "required": ["chatId", "participants", "lastMessageText", "lastTimestamp", "lastSenderId"]
+    }
+  },
+  "firestore": {
+    "/users/{userId}": {
+      "schema": { "$ref": "#/entities/User" },
+      "description": "Registered user directory profiles"
+    },
+    "/messages/{messageId}": {
+      "schema": { "$ref": "#/entities/Message" },
+      "description": "Private messages between users"
+    },
+    "/chats/{chatId}": {
+      "schema": { "$ref": "#/entities/Chat" },
+      "description": "Chat conversation summaries"
+    }
+  }
+}

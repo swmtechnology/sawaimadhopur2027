@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "465004468905",
+    "project_id": "swmapp2026",
+    "storage_bucket": "swmapp2026.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:465004468905:android:4d97ca1d744915b04567b8",
+        "android_client_info": {
+          "package_name": "sawaimadhopur.com"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQiB-EEpJvEKDq5c09OJnqTsH0UkXT3EM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

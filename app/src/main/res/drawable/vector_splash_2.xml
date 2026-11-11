@@ -1,0 +1,164 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="260dp"
+    android:viewportWidth="400"
+    android:viewportHeight="260">
+
+    <!-- Background Base Dark Red / Orange Festive Food Theme -->
+    <path
+        android:fillColor="#1A0C0A"
+        android:pathData="M 16,0 L 384,0 A 16,16 0 0 1 400,16 L 400,244 A 16,16 0 0 1 384,260 L 16,260 A 16,16 0 0 1 0,244 L 0,16 A 16,16 0 0 1 16,0 Z" />
+
+    <!-- Radiant Warm Glow -->
+    <path
+        android:fillColor="#2D130E"
+        android:pathData="M 0,0 L 400,0 L 400,150 L 0,150 Z" />
+
+    <!-- Street / Horizon line -->
+    <path
+        android:fillColor="#3E1A14"
+        android:pathData="M 0,180 L 400,180 L 400,260 L 0,260 Z" />
+    <path
+        android:fillColor="#FF7043"
+        android:pathData="M 0,178 L 400,178 L 400,182 L 0,182 Z" />
+
+    <!-- Center Cloche / Food Plate Circle -->
+    <path
+        android:fillColor="#BF360C"
+        android:pathData="M 200,90 m -45,0 a 45,45 0 1,0 90,0 a 45,45 0 1,0 -90,0" />
+    <path
+        android:fillColor="#FF5722"
+        android:pathData="M 200,90 m -40,0 a 40,40 0 1,0 80,0 a 40,40 0 1,0 -80,0" />
+
+    <!-- Chef Hat in Center -->
+    <!-- Chef Hat Base -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 185,98 L 215,98 L 215,106 L 185,106 Z" />
+    <path
+        android:fillColor="#D84315"
+        android:pathData="M 185,102 L 215,102 L 215,104 L 185,104 Z" />
+    <!-- Chef Hat Puffs -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 182,98 C 172,92 172,78 184,76 C 182,64 200,60 206,70 C 215,62 228,70 224,80 C 232,84 228,95 218,98 Z" />
+
+    <!-- Cutlery crossed behind hat -->
+    <!-- Fork left -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M 166,65 L 170,69 L 160,82 L 156,78 Z" />
+    <!-- Spoon right -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M 234,65 L 230,69 L 240,82 L 244,78 Z" />
+
+    <!-- Delivery Scooter (Left side with motion lines) -->
+    <!-- Motion lines -->
+    <path
+        android:fillColor="#FFAB91"
+        android:pathData="M 25,142 L 55,142 L 55,145 L 25,145 Z" />
+    <path
+        android:fillColor="#FFAB91"
+        android:pathData="M 35,150 L 60,150 L 60,153 L 35,153 Z" />
+    <path
+        android:fillColor="#FFAB91"
+        android:pathData="M 15,158 L 50,158 L 50,161 L 15,161 Z" />
+    <!-- Scooter body & wheels -->
+    <path
+        android:fillColor="#424242"
+        android:pathData="M 65,165 m -12,0 a 12,12 0 1,0 24,0 a 12,12 0 1,0 -24,0" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M 65,165 m -6,0 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#424242"
+        android:pathData="M 115,165 m -12,0 a 12,12 0 1,0 24,0 a 12,12 0 1,0 -24,0" />
+    <path
+        android:fillColor="#BDBDBD"
+        android:pathData="M 115,165 m -6,0 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <!-- Scooter frame -->
+    <path
+        android:fillColor="#FF3D00"
+        android:pathData="M 65,160 L 85,160 L 95,148 L 105,148 L 112,130 L 108,130 L 102,145 L 75,145 L 70,155 Z" />
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M 112,128 L 118,128 L 118,131 L 112,131 Z" />
+    <!-- Delivery Box on back -->
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M 60,135 L 82,135 L 82,154 L 60,154 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 67,144 L 75,144 L 75,146 L 67,146 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 71,140 L 71,150 L 73,150 L 73,140 Z" />
+
+    <!-- Hotel & Stay Building (Right side) -->
+    <path
+        android:fillColor="#37474F"
+        android:pathData="M 300,120 L 350,120 L 350,180 L 300,180 Z" />
+    <path
+        android:fillColor="#546E7A"
+        android:pathData="M 315,105 L 350,105 L 350,120 L 315,120 Z" />
+    <!-- Hotel Windows Glowing -->
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M 308,128 L 316,128 L 316,138 L 308,138 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M 324,128 L 332,128 L 332,138 L 324,138 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M 340,128 L 346,128 L 346,138 L 340,138 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M 308,145 L 316,145 L 316,155 L 308,155 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M 324,145 L 332,145 L 332,155 L 324,155 Z" />
+    <path
+        android:fillColor="#FFE082"
+        android:pathData="M 340,145 L 346,145 L 346,155 L 340,155 Z" />
+    <!-- Hotel Door -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M 322,165 L 334,165 L 334,180 L 322,180 Z" />
+
+    <!-- Veg Badge (Left Bottom) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 40,200 L 70,200 L 70,230 L 40,230 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M 43,203 L 67,203 L 67,227 L 43,227 L 43,203 M 41,201 L 41,229 L 69,229 L 69,201 Z" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M 55,215 m -7,0 a 7,7 0 1,0 14,0 a 7,7 0 1,0 -14,0" />
+
+    <!-- Non-Veg Badge (Right Bottom) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 330,200 L 360,200 L 360,230 L 330,230 Z" />
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M 333,203 L 357,203 L 357,227 L 333,227 L 333,203 M 331,201 L 331,229 L 359,229 L 359,201 Z" />
+    <!-- Non-Veg Triangle inside -->
+    <path
+        android:fillColor="#C62828"
+        android:pathData="M 345,208 L 354,222 L 336,222 Z" />
+
+    <!-- 24/7 Delivery Pill Center Bottom -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 120,200 L 280,200 A 15,15 0 0 1 295,215 L 295,215 A 15,15 0 0 1 280,230 L 120,230 A 15,15 0 0 1 105,215 L 105,215 A 15,15 0 0 1 120,200 Z" />
+    <!-- Lightning Bolt / Clock symbol inside pill -->
+    <path
+        android:fillColor="#FFD600"
+        android:pathData="M 125,206 L 135,206 L 128,216 L 137,216 L 123,226 L 126,218 L 120,218 Z" />
+    <!-- 24/7 indicator dots -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M 275,215 m -4,0 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0" />
+</vector>

@@ -1,0 +1,130 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="260dp"
+    android:viewportWidth="400"
+    android:viewportHeight="260">
+
+    <!-- Background Base Deep Royal Blue / Luxury Slate -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M 16,0 L 384,0 A 16,16 0 0 1 400,16 L 400,244 A 16,16 0 0 1 384,260 L 16,260 A 16,16 0 0 1 0,244 L 0,16 A 16,16 0 0 1 16,0 Z" />
+
+    <!-- Room Floor / Horizon Base -->
+    <path
+        android:fillColor="#1C2541"
+        android:pathData="M 0,0 L 400,0 L 400,140 L 0,140 Z" />
+    <path
+        android:fillColor="#3A506B"
+        android:pathData="M 0,140 L 400,140 L 400,260 L 0,260 Z" />
+
+    <!-- Luxury Bed Silhouette Center -->
+    <!-- Headboard -->
+    <path
+        android:fillColor="#5C6BC0"
+        android:pathData="M 140,80 L 260,80 A 10,10 0 0 1 270,90 L 270,140 L 130,140 L 130,90 A 10,10 0 0 1 140,80 Z" />
+    <!-- Pillows -->
+    <path
+        android:fillColor="#E8EAF6"
+        android:pathData="M 145,100 L 195,100 A 4,4 0 0 1 199,104 L 199,118 A 4,4 0 0 1 195,122 L 145,122 A 4,4 0 0 1 141,118 L 141,104 A 4,4 0 0 1 145,100 Z" />
+    <path
+        android:fillColor="#E8EAF6"
+        android:pathData="M 205,100 L 255,100 A 4,4 0 0 1 259,104 L 259,118 A 4,4 0 0 1 255,122 L 205,122 A 4,4 0 0 1 201,118 L 201,104 A 4,4 0 0 1 205,100 Z" />
+    <!-- Mattress & Duvet Cover -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 125,122 L 275,122 L 275,142 L 125,142 Z" />
+    <path
+        android:fillColor="#3949AB"
+        android:pathData="M 125,130 L 275,130 L 275,165 L 125,165 Z" />
+    <!-- Bed Runner / Golden Stripe -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 125,152 L 275,152 L 275,158 L 125,158 Z" />
+    <!-- Bed Legs -->
+    <path
+        android:fillColor="#283593"
+        android:pathData="M 128,165 L 136,165 L 136,175 L 128,175 Z" />
+    <path
+        android:fillColor="#283593"
+        android:pathData="M 264,165 L 272,165 L 272,175 L 264,175 Z" />
+
+    <!-- A/C Unit on Top Right with Cool Blue Air Stream -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M 285,35 L 365,35 A 4,4 0 0 1 369,39 L 369,58 A 4,4 0 0 1 365,62 L 285,62 A 4,4 0 0 1 281,58 L 281,39 A 4,4 0 0 1 285,35 Z" />
+    <path
+        android:fillColor="#CFD8DC"
+        android:pathData="M 285,55 L 365,55 L 365,58 L 285,58 Z" />
+    <!-- Green power LED -->
+    <path
+        android:fillColor="#00E676"
+        android:pathData="M 358,45 m -2,0 a 2,2 0 1,0 4,0 a 2,2 0 1,0 -4,0" />
+    <!-- Cold Air Streams -->
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 295,66 Q 280,78 270,90 L 273,92 Q 283,80 298,67 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 315,66 Q 305,80 300,96 L 303,98 Q 308,82 318,67 Z" />
+    <path
+        android:fillColor="#00E5FF"
+        android:pathData="M 335,66 Q 330,82 332,100 L 335,101 Q 333,83 338,67 Z" />
+
+    <!-- Swimming Pool Left Side -->
+    <path
+        android:fillColor="#0288D1"
+        android:pathData="M 35,160 L 105,160 A 8,8 0 0 1 113,168 L 113,220 A 8,8 0 0 1 105,228 L 35,228 A 8,8 0 0 1 27,220 L 27,168 A 8,8 0 0 1 35,160 Z" />
+    <path
+        android:fillColor="#29B6F6"
+        android:pathData="M 31,175 Q 50,170 70,175 T 109,175 L 109,224 A 4,4 0 0 1 105,228 L 35,228 A 4,4 0 0 1 31,224 Z" />
+    <!-- Pool Ripples -->
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M 40,188 Q 55,185 70,188 T 100,188 L 100,190 Q 85,187 70,190 T 40,190 Z" />
+    <path
+        android:fillColor="#E1F5FE"
+        android:pathData="M 45,202 Q 60,199 75,202 T 95,202 L 95,204 Q 80,201 65,204 T 45,204 Z" />
+    <!-- Pool Ladder -->
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M 85,152 L 88,152 L 88,172 L 85,172 Z" />
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M 95,152 L 98,152 L 98,172 L 95,172 Z" />
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M 85,158 L 98,158 L 98,160 L 85,160 Z" />
+    <path
+        android:fillColor="#ECEFF1"
+        android:pathData="M 85,166 L 98,166 L 98,168 L 85,168 Z" />
+
+    <!-- Hot Food Plate / Room Service (Right Side) -->
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M 330,190 m -22,0 a 22,22 0 1,0 44,0 a 22,22 0 1,0 -44,0" />
+    <path
+        android:fillColor="#FFF8E1"
+        android:pathData="M 330,190 m -18,0 a 18,18 0 1,0 36,0 a 18,18 0 1,0 -36,0" />
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M 320,186 C 322,180 338,180 340,186 C 342,194 318,194 320,186 Z" />
+    <!-- Food Steam -->
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M 325,176 Q 323,170 327,164 L 329,165 Q 325,171 327,177 Z" />
+    <path
+        android:fillColor="#FFCC80"
+        android:pathData="M 333,174 Q 336,168 333,162 L 335,161 Q 338,167 335,173 Z" />
+
+    <!-- Top Left Price Tag Ribbon: ₹500 to ₹5000 -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M 20,25 L 150,25 L 165,45 L 150,65 L 20,65 Z" />
+    <path
+        android:fillColor="#FF8F00"
+        android:pathData="M 24,29 L 146,29 L 158,45 L 146,61 L 24,61 Z" />
+    <!-- Star on Price Ribbon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 40,45 L 43,37 L 46,45 L 54,45 L 48,50 L 50,58 L 43,53 L 36,58 L 38,50 L 32,45 Z" />
+</vector>

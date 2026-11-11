@@ -1,0 +1,128 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="400dp"
+    android:height="260dp"
+    android:viewportWidth="400"
+    android:viewportHeight="260">
+
+    <!-- Background Base Rounded -->
+    <path
+        android:fillColor="#0D1B2A"
+        android:pathData="M 16,0 L 384,0 A 16,16 0 0 1 400,16 L 400,244 A 16,16 0 0 1 384,260 L 16,260 A 16,16 0 0 1 0,244 L 0,16 A 16,16 0 0 1 16,0 Z" />
+
+    <!-- Top Glow / Accent -->
+    <path
+        android:fillColor="#1B263B"
+        android:pathData="M 0,0 L 400,0 L 400,130 L 0,130 Z" />
+
+    <!-- Tricolor Ribbon Waves at Top Right -->
+    <path
+        android:fillColor="#FF9933"
+        android:pathData="M 260,0 L 400,0 L 400,20 L 290,20 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 290,20 L 400,20 L 400,34 L 315,34 Z" />
+    <path
+        android:fillColor="#138808"
+        android:pathData="M 315,34 L 400,34 L 400,48 L 335,48 Z" />
+
+    <!-- Ranthambore Fort Silhouette Background -->
+    <path
+        android:fillColor="#283747"
+        android:pathData="M 20,170 L 40,170 L 40,150 L 50,150 L 50,170 L 70,170 L 70,140 L 85,140 L 85,130 L 95,130 L 95,140 L 110,140 L 110,170 L 140,170 L 140,155 L 155,155 L 155,170 L 260,170 L 260,145 L 275,145 L 275,170 L 300,170 L 300,135 L 315,135 L 315,125 L 325,125 L 325,135 L 340,135 L 340,170 L 380,170 L 380,190 L 20,190 Z" />
+
+    <!-- Hill Base -->
+    <path
+        android:fillColor="#1A5276"
+        android:pathData="M 0,175 Q 120,150 200,165 T 400,160 L 400,260 L 0,260 Z" />
+
+    <!-- Royal Tiger Emblem Center Circle -->
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M 200,85 m -48,0 a 48,48 0 1,0 96,0 a 48,48 0 1,0 -96,0" />
+    <path
+        android:fillColor="#FFF3E0"
+        android:pathData="M 200,85 m -43,0 a 43,43 0 1,0 86,0 a 43,43 0 1,0 -86,0" />
+
+    <!-- Tiger Face Stylized Silhouette -->
+    <!-- Head Outline -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M 180,68 C 175,55 165,58 168,72 C 160,80 162,95 170,102 C 178,110 190,115 200,115 C 210,115 222,110 230,102 C 238,95 240,80 232,72 C 235,58 225,55 220,68 C 212,65 208,65 200,65 C 192,65 188,65 180,68 Z" />
+    <!-- Tiger Ears Inner -->
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M 172,66 C 170,60 175,60 176,66 Z" />
+    <path
+        android:fillColor="#FFE0B2"
+        android:pathData="M 228,66 C 230,60 225,60 224,66 Z" />
+    <!-- Tiger Stripes & Eyes -->
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 188,72 L 200,80 L 212,72 L 200,75 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 184,85 C 188,83 192,85 190,88 C 186,88 184,87 184,85 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 216,85 C 212,83 208,85 210,88 C 214,88 216,87 216,85 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 196,96 L 204,96 L 200,101 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 175,82 L 182,85 L 176,88 Z" />
+    <path
+        android:fillColor="#212121"
+        android:pathData="M 225,82 L 218,85 L 224,88 Z" />
+
+    <!-- Open Book / Education Emblem (Left) -->
+    <path
+        android:fillColor="#00BCD4"
+        android:pathData="M 55,100 C 65,95 80,95 90,102 L 90,126 C 80,120 65,120 55,124 Z" />
+    <path
+        android:fillColor="#4DD0E1"
+        android:pathData="M 90,102 C 100,95 115,95 125,100 L 125,124 C 115,120 100,120 90,126 Z" />
+    <!-- Book Bookmark -->
+    <path
+        android:fillColor="#FFD54F"
+        android:pathData="M 88,102 L 92,102 L 92,118 L 90,115 L 88,118 Z" />
+
+    <!-- Graduation Cap (Left Top) -->
+    <path
+        android:fillColor="#FFB300"
+        android:pathData="M 90,72 L 115,80 L 90,88 L 65,80 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M 75,84 L 75,93 C 75,98 105,98 105,93 L 105,84 Z" />
+
+    <!-- Sarkari Exam / Shield Stamp (Right) -->
+    <path
+        android:fillColor="#4CAF50"
+        android:pathData="M 310,75 L 335,84 L 335,105 C 335,120 310,132 310,132 C 310,132 285,120 285,105 L 285,84 Z" />
+    <!-- Checkmark inside Shield -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M 300,102 L 307,109 L 322,94 L 326,98 L 307,117 L 296,106 Z" />
+
+    <!-- Bottom Golden Banner Ribbon -->
+    <path
+        android:fillColor="#FF6F00"
+        android:pathData="M 30,200 L 370,200 L 360,225 L 370,250 L 30,250 L 40,225 Z" />
+    <path
+        android:fillColor="#FFA000"
+        android:pathData="M 40,204 L 360,204 L 350,225 L 360,246 L 40,246 L 50,225 Z" />
+
+    <!-- 4 Feature Dots at Bottom -->
+    <path
+        android:fillColor="#E65100"
+        android:pathData="M 70,225 m -6,0 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#0277BD"
+        android:pathData="M 155,225 m -6,0 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#2E7D32"
+        android:pathData="M 245,225 m -6,0 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+    <path
+        android:fillColor="#C2185B"
+        android:pathData="M 330,225 m -6,0 a 6,6 0 1,0 12,0 a 6,6 0 1,0 -12,0" />
+</vector>
